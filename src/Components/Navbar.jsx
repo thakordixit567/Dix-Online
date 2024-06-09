@@ -1,5 +1,8 @@
 import React from "react";
 import { CgMenuLeftAlt } from "react-icons/cg";
+import { MdSlowMotionVideo } from "react-icons/md";
+import { PiUserSwitch } from "react-icons/pi";
+import { TbShoppingBag } from "react-icons/tb";
 
 const Navbar = () => {
   return (
@@ -11,11 +14,34 @@ const Navbar = () => {
         <input type="checkbox" className="hidden" id="menu-toggle" />
         <div id="menu" className="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1">
           <div>
-            <ul className="md:flex items-center justify-center text-base text-gray-700 pt-4 md:pt-8">
-             <li><a href="#">Shop</a></li>
+            <ul className="md:flex items-center justify-center text-base text-gray-700 pt-4 md:pt-0">
+             <li className="inline-block text-xl no-underline hover:text-black hover:underline py-2 px-4 font-primary">
+             <a href="#">Shop</a>
+             </li>
+             <li className="inline-block text-xl no-underline hover:text-black hover:underline py-2 px-4 font-primary">
+             <a href="#">About</a>
+             </li>
             </ul>
           </div>
         </div>
+
+        <div className="order-1 md:order-1">
+          <a href="#" className="flex items-start tracking-wide no-underline 
+          hover:no-underline bg-gradient-to-tr from-pink-200 to-sky-200 text-2xl font-secondary">
+          <MdSlowMotionVideo className="h-8 w-8 mt-0" />
+          DCloud
+          </a>
+        </div>
+
+        <div className="order-2 md:order-3 flex items-center" id="nav-content">
+         <a href="#" className="inline-block no-underline hover:text-blue-200">
+         <PiUserSwitch className="h-6 w-6" />
+         </a>
+         <a href="#" className="pl-2 inline-block no-underline hover:text-red-300">
+         <TbShoppingBag className="h-6 w-6" />
+         </a>
+        </div>
+
       </div>
     </nav>
   );
