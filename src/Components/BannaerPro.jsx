@@ -2,7 +2,7 @@ import React from 'react'
 
 const BannaerPro = () => {
   return (
-    <div>BannaerPro</div>
+    <div className='relative container mx-auto' style={{maxWidth: '1600px'}}>BannaerPro</div>
   )
 }
 
