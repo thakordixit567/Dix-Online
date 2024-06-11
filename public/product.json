@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Time Saving",
+      "image": "/box/time.png",
+      "price": "£9.99"
+    },
+    {
+      "id": 2,
+      "name": "Travel Free",
+      "image": "/box/travel.png",
+      "price": "£9.99"
+    },
+    {
+      "id": 3,
+      "name": "Remote Work",
+      "image": "box/remote.png",
+      "price": "£9.99"
+    },
+    {
+      "id": 4,
+      "name": "Easy To Use",
+      "image": "box/easy.png",
+      "price": "£9.99"
+    },
+    {
+      "id": 5,
+      "name": "People Connect",
+      "image": "box/people.png",
+      "price": "£9.99"
+    }
+    
+  ]
+  

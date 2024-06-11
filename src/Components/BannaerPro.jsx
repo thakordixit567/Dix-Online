@@ -48,7 +48,7 @@ const BannaerPro = () => {
              }}>
                 <div className="container mx-auto">
                    <div className="bg-black opacity-65 flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide rounded-sm">
-                     <p className="text-white text-2xl my-4 pt-4">{slide.title}</p>
+                     <p className="text-white text-2xl my-4 pt-4 font-fortext">{slide.title}</p>
                      <a href="#" className="texl-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-indigo-500 text-white hover:border-black mb-2">
                      View Features
                      </a>

@@ -5,7 +5,8 @@ export default {
     extend: {
       fontFamily: {
         primary: ["Bebas Neue", "sans-serif"],
-        secondary: ["Monoton        ", "sans-serif"],
+        secondary: ["Monoton", "sans-serif"],
+        fortext: ["Josefin Sans", "sans-serif"],
       },
     },
   },
