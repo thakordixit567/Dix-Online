@@ -12,15 +12,15 @@ import { Pagination } from 'swiper/modules';
 const slides = [
   {
     title: "Best Video Calling Platform For Privacy",
-    image: "https://images.unsplash.com/photo-1586985564259-6211deb4c122?q=80&w=1429&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
     title: "Best Video Calling Platform For Privacy",
-    image: "https://plus.unsplash.com/premium_photo-1663013500813-328e1ab77be7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: "https://images.pexels.com/photos/821948/pexels-photo-821948.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     title: "Good Quality Video And Frequntly Connect",
-    image: "https://images.unsplash.com/photo-1586980368323-8ce5db4c85ce?q=80&w=1429&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: "https://images.pexels.com/photos/4145196/pexels-photo-4145196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
 ]
 
@@ -48,7 +48,7 @@ const BannaerPro = () => {
              }}>
                 <div className="container mx-auto">
                    <div className="bg-black opacity-65 flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide rounded-sm">
-                     <p className="text-white text-2xl my-4">{slide.title}</p>
+                     <p className="text-white text-2xl my-4 pt-4">{slide.title}</p>
                      <a href="#" className="texl-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-indigo-500 text-white hover:border-black mb-2">
                      View Features
                      </a>
