@@ -6,6 +6,7 @@ import Fetures from "./Components/Fetures";
 import BannerChild from "./Components/BannerChild";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
+import ChatPart from "./Components/ChatPart";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <BannerChild/>
       <About/>
       <Footer/>
+      <ChatPart/>
    </div>
   );
 }
