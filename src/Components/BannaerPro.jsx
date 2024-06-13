@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -27,6 +26,7 @@ const slides = [
 const BannaerPro = () => {
   return (
     <div className=" relative container mx-auto" style={{ maxWidth: "1600px" }}>
+    
       <Swiper
         slidesPerView={1}
         spaceBetween={10}

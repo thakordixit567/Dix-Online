@@ -10,7 +10,7 @@ import ChatPart from "./Components/ChatPart";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <BannaerPro/>
       <Fetures/>
@@ -18,7 +18,8 @@ function App() {
       <About/>
       <Footer/>
       <ChatPart/>
-   </div>
+      
+   </>
   );
 }
 

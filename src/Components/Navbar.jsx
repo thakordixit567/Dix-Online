@@ -6,7 +6,7 @@ import { TbShoppingBag } from "react-icons/tb";
 
 const Navbar = () => {
   return (
-    <nav className="w-full z-30 top-0 py-1 bg-gradient-to-r from-green-100 to-green-100">
+    <nav className="w-full z-30 top-0 py-1 ">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
         <label htmlFor="menu-toggle" className="cursor-pointer md:hidden block">
             <CgMenuLeftAlt className="w-5 h-5" />
