@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import BannaerPro from "./Components/BannaerPro";
 import Fetures from "./Components/Fetures";
+import BannerChild from "./Components/BannerChild";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <BannaerPro/>
       <Fetures/>
+      <BannerChild/>
     </>
   );
 }
