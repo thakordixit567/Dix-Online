@@ -9,7 +9,7 @@ const About = () => {
             About
           </a>
   
-          <p className="mt-8 mb-8">
+          <p className="mt-8 mb-8 font-about text-black text-3xl font-semibold">
             This template is inspired by the stunning nordic minimalist design -
             in particular:
             <br />
@@ -36,7 +36,7 @@ const About = () => {
             </a>
           </p>
   
-          <p className="mb-8">
+          <p className="mb-8 font-about font-semibold text-3xl">
             Lorem ipsum dolor sit amet, consectetur <a href="#">random link</a>{" "}
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Vel risus commodo viverra maecenas accumsan lacus vel

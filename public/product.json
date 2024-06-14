@@ -28,6 +28,24 @@
       "name": "People Connect",
       "image": "box/people.png",
       "price": "£9.99"
+    },
+    {
+      "id": 6,
+      "name": "Client RelationShip",
+      "image": "box/client.png",
+      "price": "£9.99"
+    },
+    {
+      "id": 7,
+      "name": "Cost Saving",
+      "image": "box/cost.png",
+      "price": "£9.99"
+    },
+    {
+      "id": 8,
+      "name": "Problem Solving",
+      "image": "box/learing.png",
+      "price": "£9.99"
     }
     
   ]

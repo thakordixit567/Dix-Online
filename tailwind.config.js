@@ -8,6 +8,7 @@ export default {
         secondary: ["Monoton", "sans-serif"],
         fortext: ["Josefin Sans", "sans-serif"],
         title: ["Pacifico", "sans-serif"],
+        about: ["Gwendolyn", "sans-serif"],
       },
     },
   },
