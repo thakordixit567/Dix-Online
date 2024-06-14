@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="w-full z-30 top-0 py-1 bg-gradient-to-r from-gray-900 to-gray-900">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
-        <label htmlFor="menu-toggle" className="cursor-pointer md:hidden block">
+        <label htmlFor="menu-toggle" className="cursor-pointer md:hidden block text-white">
             <CgMenuLeftAlt className="w-5 h-5" />
         </label>
         <input type="checkbox" className="hidden" id="menu-toggle" />

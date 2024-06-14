@@ -25,7 +25,7 @@ const Fetures = () => {
       <h2 className="text-3xl hover:underline decoration-red-300 font-semibold pl-6 pt-5 font-title">
         Some <span className=" text-indigo-300">Fetures</span> Of Video Calling  <span className=" text-indigo-400">Service</span> 
       </h2>
-      <div className="container mx-auto flex items-center flex-wrap pt-4">
+      <div className="container mx-auto flex items-center flex-wrap pt-4 ">
         {product.map((product) => (
           <div key={product.id} className=" w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col pb-5 items-center justify-between">
             <a href="#">
